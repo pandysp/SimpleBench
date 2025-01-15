@@ -16,6 +16,7 @@ from openai import RateLimitError
 MODEL_MAP = {
     "gpt-4o-mini": "gpt-4o-mini",
     "claude-3-5-sonnet-20240620": "claude-3-5-sonnet-20240620",
+    "claude-3-5-sonnet-20241022": "claude-3-5-sonnet-20241022",
     "gpt-4o": "gpt-4o-2024-08-06",
     "gpt-4-turbo": "gpt-4-turbo",
     "o1-preview": "o1-preview",
