@@ -117,7 +117,7 @@ wheels = [
 
 [[package]]
 name = "anthropic"
-version = "0.40.0"
+version = "0.43.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -128,9 +128,9 @@ dependencies = [
     { name = "sniffio" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4d/d9/c39005f04c602607d68d48d1c917b35af8d16b687b7ca427ca787c39d8b9/anthropic-0.40.0.tar.gz", hash = "sha256:3efeca6d9e97813f93ed34322c6c7ea2279bf0824cd0aa71b59ce222665e2b87", size = 190939 }
+sdist = { url = "https://files.pythonhosted.org/packages/e1/0a/973d2ac6c9f7d1be41829c7b878cbe399385b25cc2ebe80ad0eec9999b8c/anthropic-0.43.0.tar.gz", hash = "sha256:06801f01d317a431d883230024318d48981758058bf7e079f33fb11f64b5a5c1", size = 194826 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/cb/18/a68cfb9a11990377650c36c25b5dfb0baece900e9e505b68e1aa06ad0227/anthropic-0.40.0-py3-none-any.whl", hash = "sha256:442028ae8790ff9e3b6f8912043918755af1230d193904ae2ef78cc22995280c", size = 199484 },
+    { url = "https://files.pythonhosted.org/packages/d7/88/ded3ba979a2218a448cbc1a1e762d998b92f30529452c5104b35b6cb71f8/anthropic-0.43.0-py3-none-any.whl", hash = "sha256:f748a703f77b3244975e1aace3a935840dc653a4714fb6bba644f97cc76847b4", size = 207867 },
 ]
 
 [[package]]
@@ -258,7 +258,7 @@ name = "click"
 version = "8.1.7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "colorama", marker = "platform_system == 'Windows'" },
+    { name = "colorama", marker = "platform_system == 'Windows' and sys_platform != 'linux'" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/96/d3/f04c7bfcf5c1862a2a5b845c6b2b360488cf47af55dfa79c98f6a6bf98b5/click-8.1.7.tar.gz", hash = "sha256:ca9853ad459e787e2192211578cc907e7594e294c7ccc834310722b41b9ca6de", size = 336121 }
 wheels = [
@@ -643,7 +643,7 @@ wheels = [
 
 [[package]]
 name = "litellm"
-version = "1.54.1"
+version = "1.58.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -655,13 +655,12 @@ dependencies = [
     { name = "openai" },
     { name = "pydantic" },
     { name = "python-dotenv" },
-    { name = "requests" },
     { name = "tiktoken" },
     { name = "tokenizers" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e7/93/e718a9de07049d8a5cdeb728ca943a8662cb14de2f9beabbd8fcc9a41270/litellm-1.54.1.tar.gz", hash = "sha256:b5a8fc99160fab0699b9258457432b3975499218ffcf1b515709808b2ce5a2d7", size = 6190398 }
+sdist = { url = "https://files.pythonhosted.org/packages/4a/0f/42273b80f7cab10c3fc787edfa1d2917d04036b0213b3afe35ad36e83f24/litellm-1.58.2.tar.gz", hash = "sha256:4e1b7191a86970bbacd30e5315d3b6a0f5fc75a99763c9164116de60c6ac0bf3", size = 6319148 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f4/79/44645946d1343de9250f9d414a65fcf856027523d8a679b0f33ff3fcec92/litellm-1.54.1-py3-none-any.whl", hash = "sha256:d8e60d4a5e8decb0234a1e8c20351c904aec561fb4025df7df3d0d7ea81ca442", size = 6446858 },
+    { url = "https://files.pythonhosted.org/packages/c0/a0/60e02dad8fb8f98547b30aaa260946a77aa0e726b54ec208bb78426c131e/litellm-1.58.2-py3-none-any.whl", hash = "sha256:51b14b2f5e30d2d41a76fbf926d7d882f1fddbbfda8812358cb4bb27d0d27692", size = 6605256 },
 ]
 
 [[package]]
@@ -879,7 +878,7 @@ wheels = [
 
 [[package]]
 name = "openai"
-version = "1.57.2"
+version = "1.59.7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -891,9 +890,9 @@ dependencies = [
     { name = "tqdm" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a9/b6/9a404e1d1043cabbffb020f9d850a44a31f30f284444a528d9a1f0eec9df/openai-1.57.2.tar.gz", hash = "sha256:5f49fd0f38e9f2131cda7deb45dafdd1aee4f52a637e190ce0ecf40147ce8cee", size = 315752 }
+sdist = { url = "https://files.pythonhosted.org/packages/f9/d5/25cf04789c7929b476c4d9ef711f8979091db63d30bfc093828fe4bf5c72/openai-1.59.7.tar.gz", hash = "sha256:043603def78c00befb857df9f0a16ee76a3af5984ba40cb7ee5e2f40db4646bf", size = 345007 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/37/e7/95437fb676381e927d4cb3f9f8dd90ed24cfd264f572db4d395037428594/openai-1.57.2-py3-none-any.whl", hash = "sha256:f7326283c156fdee875746e7e54d36959fb198eadc683952ee05e3302fbd638d", size = 389873 },
+    { url = "https://files.pythonhosted.org/packages/6d/47/7b92f1731c227f4139ef0025b5996062e44f9a749c54315c8bdb34bad5ec/openai-1.59.7-py3-none-any.whl", hash = "sha256:cfa806556226fa96df7380ab2e29814181d56fea44738c2b0e581b462c268692", size = 454844 },
 ]
 
 [[package]]
@@ -1472,12 +1471,12 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "anthropic", specifier = ">=0.40.0" },
+    { name = "anthropic", specifier = ">=0.43.0" },
     { name = "fire", specifier = ">=0.7.0" },
-    { name = "litellm", specifier = ">=1.54.1" },
-    { name = "openai", specifier = ">=1.57.2" },
+    { name = "litellm", specifier = ">=1.58.2" },
+    { name = "openai", specifier = ">=1.59.7" },
     { name = "python-dotenv", specifier = ">=1.0.1" },
-    { name = "weave", specifier = ">=0.51.23" },
+    { name = "weave", specifier = ">=0.51.28" },
 ]
 
 [[package]]
@@ -1591,7 +1590,7 @@ name = "tqdm"
 version = "4.67.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "colorama", marker = "platform_system == 'Windows'" },
+    { name = "colorama", marker = "platform_system == 'Windows' and sys_platform != 'linux'" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/a8/4b/29b4ef32e036bb34e4ab51796dd745cdba7ed47ad142a9f4a1eb8e0c744d/tqdm-4.67.1.tar.gz", hash = "sha256:f8aef9c52c08c13a65f30ea34f4e5aac3fd1a34959879d7e59e63027286627f2", size = 169737 }
 wheels = [
@@ -1677,7 +1676,7 @@ wheels = [
 
 [[package]]
 name = "weave"
-version = "0.51.23"
+version = "0.51.28"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "emoji" },
@@ -1691,9 +1690,9 @@ dependencies = [
     { name = "uuid-utils" },
     { name = "wandb" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/96/63/227617facbae0a215d754c2bea5e21978aafd81d0ea1e68a3b62831ac799/weave-0.51.23.tar.gz", hash = "sha256:51c827735ccb5c138c275085a37a80c945788b65fbc41440c6b0e38858ba31ed", size = 247960 }
+sdist = { url = "https://files.pythonhosted.org/packages/f5/a6/a24d933164bcab52f813facd6ebf28ecddf3e87f27dd6635645c34697d79/weave-0.51.28.tar.gz", hash = "sha256:80ff24e1df44215b4526c0ffab75921b42a571a6cc03a70a5e47ddc8fdafd154", size = 263248 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8a/27/c63415a3e099a1048f2efb110dec02e5de0cfec899d50fde75cca7fb7c75/weave-0.51.23-py3-none-any.whl", hash = "sha256:d42a0115ef44474d63138ca9cf079ac4acd99ce78c343e5ca2df1f9c2e4b5f43", size = 321603 },
+    { url = "https://files.pythonhosted.org/packages/cf/2f/dd40c15c46b20e6e478a1a10f1c65b9e1f39d99634ad02e94638539b4630/weave-0.51.28-py3-none-any.whl", hash = "sha256:feba8468fed2cf3aa691d07b4b7c14edf1f7835741b37e87e7c5acb6bd7a28da", size = 342575 },
 ]
 
 [[package]]
